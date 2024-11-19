@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/businessModel_MVP/static/css/main.c841bab3.css",
+    "main.js": "/businessModel_MVP/static/js/main.40036fac.js",
+    "static/media/adbanner.png": "/businessModel_MVP/static/media/adbanner.bff89a4ef460f0b24ec6.png",
+    "static/media/map.png": "/businessModel_MVP/static/media/map.84f41a6da9c595a59ab2.png",
+    "static/media/findFav.png": "/businessModel_MVP/static/media/findFav.c660b2cf61b0395cc7b1.png",
+    "static/media/jaeyook.jpg": "/businessModel_MVP/static/media/jaeyook.c70ffa67549925dc8074.jpg",
+    "static/media/app_logo.png": "/businessModel_MVP/static/media/app_logo.4e21df36919f515e90f5.png",
+    "static/media/manage_deliver.png": "/businessModel_MVP/static/media/manage_deliver.97e29cb51cd4b99aa3c5.png",
+    "static/media/yangneumCrab.jpg": "/businessModel_MVP/static/media/yangneumCrab.cdeacda052f5dbf53a58.jpg",
+    "static/media/dongtae.jpg": "/businessModel_MVP/static/media/dongtae.3ac5bd3038e89bea841f.jpg",
+    "static/media/gosari.jpg": "/businessModel_MVP/static/media/gosari.83d70773b75d38ab49cf.jpg",
+    "static/media/fish_jorim.jpg": "/businessModel_MVP/static/media/fish_jorim.05b7e5bead3ab703c5e4.jpg",
+    "static/media/food_deliver.jpg": "/businessModel_MVP/static/media/food_deliver.02cf1ec39ed67baaad9e.jpg",
+    "static/media/logo.png": "/businessModel_MVP/static/media/logo.144d209babe43c1eb417.png",
+    "static/media/spanich.jpg": "/businessModel_MVP/static/media/spanich.b5ff21846cf3c308fc0f.jpg",
+    "index.html": "/businessModel_MVP/index.html",
+    "main.c841bab3.css.map": "/businessModel_MVP/static/css/main.c841bab3.css.map",
+    "main.40036fac.js.map": "/businessModel_MVP/static/js/main.40036fac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c841bab3.css",
+    "static/js/main.40036fac.js"
+  ]
+}
