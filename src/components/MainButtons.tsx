@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import btn1Img from "../assets/food_deliver.jpg";
+import btn2Img from "../assets/manage_deliver.png";
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -45,13 +47,13 @@ const MainButtons = () => {
     <ButtonContainer>
       <StyledButton
         onClick={() => navigate("/menu-selection")}
-        style={{ backgroundImage: `url('/path-to-menu-image.jpg')` }}
+        style={{ backgroundImage: `url(${btn1Img})` }}
       >
         <ButtonText>다음주 메뉴 선택하러 가기</ButtonText>
       </StyledButton>
       <StyledButton
         onClick={() => navigate("/delivery-management")}
-        style={{ backgroundImage: `url('/path-to-menu-image.jpg')` }}
+        style={{ backgroundImage: `url(${btn2Img})` }}
       >
         <ButtonText>내가 시킨 메뉴 관리하러 가기</ButtonText>
       </StyledButton>
