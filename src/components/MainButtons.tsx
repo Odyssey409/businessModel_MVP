@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import btn1Img from "../assets/food_deliver.jpg";
 import btn2Img from "../assets/manage_deliver.png";
+import btn3Img from "../assets/map.png";
+import btn4Img from "../assets/findFav.png";
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -38,6 +40,15 @@ const ButtonText = styled.span`
   font-size: 1.2rem;
   font-weight: bold;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+`;
+
+const NotImplemented = styled.span`
+  font-size: 0.8rem;
+  color: #ff4444;
 `;
 
 const MainButtons = () => {
@@ -56,6 +67,24 @@ const MainButtons = () => {
         style={{ backgroundImage: `url(${btn2Img})` }}
       >
         <ButtonText>내가 시킨 메뉴 관리하러 가기</ButtonText>
+      </StyledButton>
+      <StyledButton
+        onClick={() => {}}
+        style={{ backgroundImage: `url(${btn3Img})` }}
+      >
+        <ButtonText>
+          주변 반찬가게 찾아보기
+          <NotImplemented>(구현X)</NotImplemented>
+        </ButtonText>
+      </StyledButton>
+      <StyledButton
+        onClick={() => {}}
+        style={{ backgroundImage: `url(${btn4Img})` }}
+      >
+        <ButtonText>
+          나의 반찬 취향 찾기
+          <NotImplemented>(구현X)</NotImplemented>
+        </ButtonText>
       </StyledButton>
     </ButtonContainer>
   );
