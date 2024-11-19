@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import ad from "../assets/adbanner.png";
 
 const BannerContainer = styled.div`
   width: 100%;
-  height: 100px;
+  height: 110px;
   position: fixed;
   bottom: 0;
-  background-color: #f8f9fa;
+  background-color: #dae2ed;
 `;
 
 const BannerImage = styled.img`
@@ -17,7 +18,7 @@ const BannerImage = styled.img`
 const AdBanner = () => {
   return (
     <BannerContainer>
-      <BannerImage src="/path-to-ad-image.jpg" alt="광고" />
+      <BannerImage src={ad} alt="광고" />
     </BannerContainer>
   );
 };

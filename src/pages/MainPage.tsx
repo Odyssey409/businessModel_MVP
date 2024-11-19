@@ -5,7 +5,7 @@ import AdBanner from "../components/AdBanner";
 const MainPage = () => {
   return (
     <>
-      <UserHeader />
+      <UserHeader isMain={true} />
       <MainButtons />
       <AdBanner />
     </>

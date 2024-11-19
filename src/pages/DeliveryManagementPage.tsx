@@ -4,7 +4,7 @@ import DeliveryManagement from "../components/DeliveryManagement";
 const DeliveryManagementPage = () => {
   return (
     <>
-      <UserHeader />
+      <UserHeader isMain={true} />
       <DeliveryManagement />
     </>
   );

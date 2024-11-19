@@ -49,6 +49,12 @@ const MainButtons = () => {
       >
         <ButtonText>다음주 메뉴 선택하러 가기</ButtonText>
       </StyledButton>
+      <StyledButton
+        onClick={() => navigate("/delivery-management")}
+        style={{ backgroundImage: `url('/path-to-menu-image.jpg')` }}
+      >
+        <ButtonText>내가 시킨 메뉴 관리하러 가기</ButtonText>
+      </StyledButton>
     </ButtonContainer>
   );
 };
