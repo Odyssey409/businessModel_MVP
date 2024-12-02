@@ -58,29 +58,23 @@ const MainButtons = () => {
     <ButtonContainer>
       <StyledButton
         onClick={() => navigate("/menu-selection")}
-        style={{ backgroundImage: `url(${btn1Img})` }}
+        style={{ backgroundColor: "#228be6" }}
       >
         <ButtonText>다음주 메뉴 선택하러 가기</ButtonText>
       </StyledButton>
       <StyledButton
         onClick={() => navigate("/delivery-management")}
-        style={{ backgroundImage: `url(${btn2Img})` }}
+        style={{ backgroundColor: "#cf5bfc" }}
       >
         <ButtonText>내가 시킨 메뉴 관리하러 가기</ButtonText>
       </StyledButton>
-      <StyledButton
-        onClick={() => {}}
-        style={{ backgroundImage: `url(${btn3Img})` }}
-      >
+      <StyledButton onClick={() => {}} style={{ backgroundColor: "#02f87d" }}>
         <ButtonText>
           주변 반찬가게 찾아보기
           <NotImplemented>(구현X)</NotImplemented>
         </ButtonText>
       </StyledButton>
-      <StyledButton
-        onClick={() => {}}
-        style={{ backgroundImage: `url(${btn4Img})` }}
-      >
+      <StyledButton onClick={() => {}} style={{ backgroundColor: "#ff038e" }}>
         <ButtonText>
           나의 반찬 취향 찾기
           <NotImplemented>(구현X)</NotImplemented>

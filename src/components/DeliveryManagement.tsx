@@ -188,7 +188,7 @@ const DeliveryManagement = () => {
         <ProgressBar>
           <Progress />
         </ProgressBar>
-        <p>배송중 - 오늘 오전 7시 도착 예정</p>
+        <p>배송중 - 오늘 오후 2시 25분 도착 예정</p>
       </ProgressContainer>
 
       <ReviewSection>

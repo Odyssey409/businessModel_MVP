@@ -51,7 +51,8 @@ const UserHeader = ({ isMain = false }) => {
           <div>홍길동</div>
           <div>광진구 능동로 123-1</div>
         </UserInfo>
-        <Balance>잔여 금액: 73,120원</Balance>
+        <Balance>보유 금액권 : 15,000 X 2</Balance>
+        <Balance>보유 할인권 : 10% 할인권 X 1</Balance>
       </UserSection>
       {isMain && <LogoSection src={logo} alt="로고" />}
     </HeaderContainer>

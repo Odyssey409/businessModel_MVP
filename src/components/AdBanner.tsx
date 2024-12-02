@@ -4,7 +4,7 @@ import ad from "../assets/adbanner.png";
 const BannerContainer = styled.div`
   width: 100%;
   height: 110px;
-  position: fixed;
+  position: relative;
   bottom: 0;
   background-color: #dae2ed;
 `;
